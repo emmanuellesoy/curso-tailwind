@@ -4,27 +4,111 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            monserrat: ["Montserrat"],
+          },
+        },
+      };
+    </script>
     <title>Typography</title>
   </head>
   <body>
     <!-- Font Family -->
-
+    <div class="font-sans">Tailwind</div>
+    <div class="font-serif">Tailwind</div>
+    <div class="font-mono">Tailwind</div>
+    <div class="font-monserrat">Tailwind</div>
     <!-- Font Size -->
+    <div class="mt-4"></div>
+    <div class="font-monserrat text-xs">Tailwind xs</div>
+    <div class="font-monserrat text-sm">Tailwind sm</div>
+    <div class="font-monserrat text-base">Tailwind base</div>
+    <div class="font-monserrat text-lg">Tailwind lg</div>
+    <div class="font-monserrat text-xl">Tailwind xl</div>
+    <div class="font-monserrat text-2xl">Tailwind 2xl</div>
+    <div class="font-monserrat text-9xl">Tailwind 9xl</div>
 
     <!-- Font Weight -->
+    <div class="mt-4"></div>
+    <div class="font-monserrat text-2xl font-light">Tailwind 2xl</div>
+    <div class="font-monserrat text-2xl font-normal">Tailwind 2xl</div>
+    <div class="font-monserrat text-2xl font-medium">Tailwind 2xl</div>
+    <div class="font-monserrat text-2xl font-semibold">Tailwind 2xl</div>
+    <div class="font-monserrat text-2xl font-bold">Tailwind 2xl</div>
 
     <!-- Letter Spacing -->
+    <div class="mt-4"></div>
+    <div class="font-monserrat text-2xl font-bold tracking-tight">
+      Tailwind 2xl
+    </div>
+    <div class="font-monserrat text-2xl font-bold tracking-normal">
+      Tailwind 2xl
+    </div>
+    <div class="font-monserrat text-2xl font-bold tracking-wide">
+      Tailwind 2xl
+    </div>
 
     <!-- Text Alignment -->
+    <div class="mt-4"></div>
+    <div class="font-monserrat text-2xl font-semibold text-left">Tailwind</div>
+    <div class="font-monserrat text-2xl font-semibold text-center">
+      Tailwind
+    </div>
+    <div class="font-monserrat text-2xl font-semibold text-right">Tailwind</div>
 
     <!-- Text Decoration -->
+    <div class="mt-4"></div>
+    <div
+      class="font-monserrat text-2xl font-semibold underline decoration-4 decoration-orange-400"
+    >
+      Tailwind
+    </div>
+    <div
+      class="mt-3 font-monserrat text-2xl font-semibold underline decoration-double decoration-orange-400"
+    >
+      Tailwind
+    </div>
+    <div
+      class="mt-3 font-monserrat text-2xl font-semibold underline decoration-dotted decoration-4 decoration-orange-400"
+    >
+      Tailwind
+    </div>
+    <div
+      class="mt-3 font-monserrat text-2xl font-semibold underline decoration-dashed decoration-4 decoration-orange-400"
+    >
+      Tailwind
+    </div>
+    <div
+      class="mt-3 font-monserrat text-2xl font-semibold underline decoration-wavy decoration-4 decoration-orange-400"
+    >
+      Tailwind
+    </div>
 
     <!-- Decoration Style -->
 
     <!-- Decoration Offset -->
+    <div
+      class="mt-3 font-monserrat text-2xl font-semibold underline underline-offset-8 decoration-4 decoration-orange-400"
+    >
+      Tailwind
+    </div>
 
     <!-- Text Transform -->
+    <div class="mt-4"></div>
+    <p class="normal-case">Tailwind Normal Case</p>
+    <p class="uppercase">Tailwind uppercas</p>
+    <p class="lowercase">Tailwind lowercase</p>
+    <p class="capitalize">Tailwind lowercase</p>
   </body>
 </html>
 
