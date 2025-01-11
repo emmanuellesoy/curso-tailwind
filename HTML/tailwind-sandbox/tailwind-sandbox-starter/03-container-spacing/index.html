@@ -10,7 +10,17 @@
   <body>
     <!-- Container -->
     <div>
-      <article>
+      <article class="container">
+        <h3>Article One</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem laboriosam libero molestiae recusandae accusantium
+          voluptates? Expedita dignissimos amet eveniet dolore nobis odio a
+          sunt, maiores quasi. Modi amet quos dolores!
+        </p>
+      </article>
+
+      <article class="container mx-auto">
         <h3>Article One</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -21,12 +31,48 @@
       </article>
 
       <!-- Margin -->
+      <div class="bg-slate-500 m-4">
+        <p class="text-white">Hello World</p>
+      </div>
+      <div class="bg-slate-500 ml-4 mt-8">
+        <p class="text-white">Hello World</p>
+      </div>
+      <div class="bg-slate-500 mr-4 mt-8">
+        <p class="text-white">Hello World</p>
+      </div>
 
       <!-- Padding -->
+      <div class="bg-sky-500 mt-3 p-4">
+        <p class="text-white">Hello World</p>
+      </div>
+      <div class="bg-sky-500 pl-4 pt-8">
+        <p class="text-white">Hello World</p>
+      </div>
+      <div class="bg-sky-500 pr-4 pt-8">
+        <p class="text-white">Hello World</p>
+      </div>
 
       <!-- Space Between X -->
+      <div class="flex mt-24 space-x-4">
+        <div>Item: 1</div>
+        <div>Item: 2</div>
+        <div>Item: 3</div>
+        <div>Item: 4</div>
+        <div>Item: 5</div>
+        <div>Item: 6</div>
+        <div>Item: 7</div>
+      </div>
 
       <!-- Space Between Y -->
+      <div class="flex flex-col mt-24 space-y-4">
+        <div>Item: 1</div>
+        <div>Item: 2</div>
+        <div>Item: 3</div>
+        <div>Item: 4</div>
+        <div>Item: 5</div>
+        <div>Item: 6</div>
+        <div>Item: 7</div>
+      </div>
     </div>
   </body>
 </html>
