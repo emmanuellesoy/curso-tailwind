@@ -10,9 +10,81 @@
   <body>
     <!-- Flex and alignment -->
 
+    <div class="flex">
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 1</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 2</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 3</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 4</div>
+    </div>
+    <p class="p m-8 text-2xl">Items Default</p>
+    <div class="flex h-72 w-full bg-gray-100 uppercase text-lg">
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 1</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 2</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 3</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 4</div>
+    </div>
+    <p class="p m-8 text-2xl">Items Start</p>
+    <div
+      class="flex h-72 w-full bg-gray-100 items-start justify-center uppercase text-lg"
+    >
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 1</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 2</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 3</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 4</div>
+    </div>
+    <p class="p m-8 text-2xl">Items End</p>
+    <div class="flex h-72 w-full bg-gray-100 items-end uppercase text-lg">
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 1</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 2</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 3</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 4</div>
+    </div>
+    <p class="p m-8 text-2xl">Items Center</p>
+    <div class="flex h-72 w-full bg-gray-100 items-center uppercase text-lg">
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 1</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 2</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 3</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 4</div>
+    </div>
+    <p class="p m-8 text-2xl">Items Baseline</p>
+    <div class="flex h-72 w-full bg-gray-100 items-baseline uppercase text-lg">
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 1</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 2</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 3</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 4</div>
+    </div>
+    <p class="p m-8 text-2xl">Items Strech</p>
+    <div
+      class="flex h-72 w-full bg-gray-100 items-stretch uppercase text-lg gap-2"
+    >
+      <div class="p-10 border border-blue-300 bg-blue-100 order-2">Item 1</div>
+      <div class="p-10 border border-blue-300 bg-blue-100 order-4">Item 2</div>
+      <div class="p-10 border border-blue-300 bg-blue-100 order-3">Item 3</div>
+      <div class="p-10 border border-blue-300 bg-blue-100 order-1">Item 4</div>
+    </div>
+
     <!-- Flex Column, Gap and Order -->
 
     <!-- Grow and shrink -->
+    <div class="flex h-72 w-full bg-gray-100 items-stretch uppercase text-lg">
+      <div class="w-64 p-10 border border-blue-300 bg-blue-100 order-2">
+        Item 1
+      </div>
+      <div class="w-64 p-10 border border-blue-300 bg-blue-100 order-4">
+        Item 2
+      </div>
+      <div class="p-10 border border-blue-300 bg-blue-100 order-3">Item 3</div>
+      <div class="w-64 p-10 border border-blue-300 bg-blue-100 order-1">
+        Item 4
+      </div>
+      <div class="flex-none w-64 p-10 border border-blue-300 bg-blue-100">
+        Item 5
+      </div>
+      <div class="flex-auto p-10 border border-blue-300 bg-blue-100">
+        Item 6
+      </div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 7</div>
+    </div>
   </body>
 </html>
 
@@ -26,11 +98,11 @@
     -->
 
 <!-- 
-      items-start	align-items: flex-start;
-      items-end	align-items: flex-end;
-      items-center	align-items: center;
-      items-baseline	align-items: baseline;
-      items-stretch	align-items: stretch;
+      items-start	align-items:      flex-start;
+      items-end	align-items:        flex-end;
+      items-center	align-items:    center;
+      items-baseline	align-items:  baseline;
+      items-stretch	align-items:    stretch;
      -->
 
 <!-- Flex Direction
